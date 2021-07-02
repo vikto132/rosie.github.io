@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/pages-style/animation.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/pages-style/indexStyle.css">
     <title>Vitamin Rosie</title>
@@ -22,9 +23,10 @@
                 <div class="avatar">
                     <img src="assets/images/avatar.jpg" alt="">
                 </div>
-                <div class="text-center mt-2">
-                    <span class="title">Rosie - Nguyễn</span>
-                    <span class="title">(29-06-2000)</span>
+                <div class="intro text-center mt-2">
+                    <span class="title">Rosie - Nguyễn <br/>
+                    </span>
+                    <span class="sub-title fz-24">Nguyễn Hoàng Nhung (29-06-2000)</span>
                     <div class="social mr-8">
                         <a class="social__link" href="https://www.facebook.com/nhung.pj.75" target="_blank"><i
                                 class="fab fa-facebook"></i></a>
@@ -63,15 +65,12 @@
                     </div>
                     <!-- childhood -->
                     <div class="milestone">
-                        <div class="milestone__image text-center"><span class="fz-32"><i
+                        <div class="milestone__image text-center" onclick="toggleTimeline('childhood','sliderTL')"><span class="fz-32"><i
                                     class="fas fa-baby-carriage"></i></span></div>
                         <div class="milestone__content d-flex">
                             <div class="arrow-left"></div>
                             <div class="milestone__content__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus amet at quas
-                                assumenda quasi totam, soluta voluptatem ullam nostrum, hic eum veritatis odio ab quam?
-                                Enim
-                                quam ad harum?
+                               Time when she most confident with blooming smile. Her world surounding with love, happy, admire from people with her talents and beauty 
                             </div>
                             <div class="milestone__content__img">
                                 <img src="./assets/images/childhood/cover.jpg"
@@ -82,16 +81,13 @@
                     </div>
                     <!-- midleschool -->
                     <div class="milestone">
-                        <div class="milestone__image text-center"><span class="fz-32"><i
+                        <div class="milestone__image text-center" onclick="toggleTimeline('midleschool','sliderTL')"><span class="fz-32"><i
                                     class="fas fa-child"></i></span>
                         </div>
                         <div class="milestone__content d-flex">
                             <div class="arrow-left"></div>
                             <div class="milestone__content__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus amet at quas
-                                assumenda quasi totam, soluta voluptatem ullam nostrum, hic eum veritatis odio ab quam?
-                                Enim
-                                quam ad harum?
+                                Time flow, Her's world open, along with events she go through, she grow up but still with her's blooming smile
                             </div>
                             <div class="milestone__content__img">
                                 <img src="./assets/images/midleschool/3.jpg"
@@ -101,14 +97,11 @@
                     </div>
                     <!-- highschool -->
                     <div class="milestone">
-                        <div class="milestone__image text-center"><span class="fz-32"><i
+                        <div class="milestone__image text-center" onclick="toggleTimeline('highschool','sliderTL')"><span class="fz-32"><i
                                     class="fas fa-user-graduate"></i></span></div>
                         <div class="milestone__content d-flex">
                             <div class="milestone__content__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus amet at quas
-                                assumenda quasi totam, soluta voluptatem ullam nostrum, hic eum veritatis odio ab quam?
-                                Enim
-                                quam ad harum?
+                               High School, she already grow up like a lady with warm heart treat everyone without discriminate
                             </div>
                             <div class="milestone__content__img">
                                 <img src="./assets/images/highschool/cover.jpg"
@@ -118,15 +111,13 @@
                     </div>
                     <!-- unviversity -->
                     <div class="milestone">
-                        <div class="milestone__image text-center"><span class="fz-32"><i
+                        <div class="milestone__image text-center" onclick="toggleTimeline('university','sliderTL')"><span class="fz-32"><i
                                     class="fas fa-university"></i></span></div>
                         <div class="milestone__content d-flex">
                             <div class="arrow-left"></div>
                             <div class="milestone__content__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus amet at quas
-                                assumenda quasi totam, soluta voluptatem ullam nostrum, hic eum veritatis odio ab quam?
-                                Enim
-                                quam ad harum?
+                                Strange adult with inocent smile like a baby, no man can't stop being attractived.<br/>
+                                <span class="op-50">Ps: It not count her body =))</span> 
                             </div>
                             <div class="milestone__content__img">
                                 <img src="./assets/images/university/cover.jpg"
@@ -144,22 +135,11 @@
                     </div> -->
                     </div>
                 </div>
-                <div class="slider-milestone col-6 invisible">
+                <div class="slider-milestone col-6 invisible" id="sliderTL">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade flex-fill slide-container"
                         data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.18169-9/1450191_172421196289654_1488602971_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=19026a&_nc_ohc=wnT4zeem260AX9m-S8a&tn=_p-t-rX0CYknOZW8&_nc_ht=scontent.fhan5-5.fna&oh=309af89970f172df2ba5552e536d4e4e&oe=60E22245"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.18169-9/1888734_206658502865923_671711601_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=N-BXwbRGSlkAX-SSS4w&_nc_ht=scontent.fhan5-2.fna&oh=fc106a029330c9abcbf0d87db6c7cb7f&oe=60E1D7CE"
-                                    class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.18169-9/1450191_172421196289654_1488602971_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=19026a&_nc_ohc=wnT4zeem260AX9m-S8a&tn=_p-t-rX0CYknOZW8&_nc_ht=scontent.fhan5-5.fna&oh=309af89970f172df2ba5552e536d4e4e&oe=60E22245"
-                                    class="d-block w-100" alt="...">
-                            </div>
+                          
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
                             data-bs-slide="prev">
@@ -237,6 +217,8 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="assets/js/clock.js"></script>
+    <script src="assets/js/constant.js"></script>
+    <script src="assets/js/slider-config.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
