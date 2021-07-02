@@ -1,1 +1,49 @@
 @import url(typhocraphy.css);
+@import url(common.css);
+
+
+*{
+    color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+html{
+    min-height: 100%;
+}
+body{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.699);
+}
+
+h1,h2,h4,h3,h5,span,p{
+    color:white;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.main-section{
+    min-height: 100vh;
+    width: 100vw;
+}
+.title{
+    font-size: 36px;
+}
+.rs-container{
+    background: #fff;
+    margin: 0;
+    height: auto;
+}
+.bg-cover{
+    background-image: url('../images/bg-section-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
